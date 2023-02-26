@@ -1,12 +1,13 @@
 import './App.css'
-import Header from './components/Header'
-import PageContainer from './components/PageContainer'
+import Login from './components/Login/Login'
+import PageContainer from './UI/Card/PageContainer/PageContainer'
 
 const App = () => {
     return (
         <div className="App">
-            <Header />
-            <PageContainer />
+            <PageContainer>
+                <Login />
+            </PageContainer>
         </div>
     )
 }
