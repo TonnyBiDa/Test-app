@@ -3,11 +3,9 @@ import style from './Login.module.css'
 
 const Login = () => {
     return (
-        <div className={style.login}>
-            <Card>
-                <form action="">this is login form</form>
-            </Card>
-        </div>
+        <Card className={style.login}>
+            <form action="">this is login form</form>
+        </Card>
     )
 }
 
