@@ -1,11 +1,15 @@
 import './App.css'
 import Login from './components/Login/Login'
+import { Provider } from 'react-redux'
+import store from './store/index'
 
 const App = () => {
     return (
-        <div className="App">
-            <Login />
-        </div>
+        <Provider store={store}>
+            <div className="App">
+                <Login />
+            </div>
+        </Provider>
     )
 }
 
